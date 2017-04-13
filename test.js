@@ -2,7 +2,7 @@ var osmosis = require('osmosis');
 var fs = require('fs')
 osmosis
 .get('https://www.facebook.com/login')
-.submit("#login_form", {'email': 'luongquocdinh.95@gmail.com', 'pass':'jihanaviqdinh1995'}) // khong co xac nhan password cap 2
+.submit("#login_form", {'email': '-----------------@gmail.com', 'pass':'******************'})
 .then(function(context, data) {
 	osmosis.config('cookies', context.cookies)
 	osmosis.headers(context.request.headers)
